@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeWork5_2_remote">
+	<test name="Test chrome">
+		<parameter name="browser" value="remote-chrome"></parameter>
+		<parameter name="platform" value="win10"></parameter>
+		<parameter name="url"
+			value="http://prestashop-automation.qatestlab.com.ua/ru/"></parameter>
+		<classes>
+			<class name="com.qatestlab.homework5.TestHomeWork5_1"></class>
+		</classes>
+	</test>
+	<test name="Test FF">
+		<parameter name="browser" value="remote-firefox"></parameter>
+		<parameter name="platform" value="windows"></parameter>
+		<parameter name="url"
+			value="http://prestashop-automation.qatestlab.com.ua/ru/"></parameter>
+		<classes>
+			<class name="com.qatestlab.homework5.TestHomeWork5_1"></class>
+		</classes>
+	</test>
+	<test name="Test IE">
+		<parameter name="browser" value="remote-ie"></parameter>
+		<parameter name="platform" value="windows"></parameter>
+		<parameter name="url"
+			value="http://prestashop-automation.qatestlab.com.ua/ru/"></parameter>
+		<classes>
+			<class name="com.qatestlab.homework5.TestHomeWork5_1"></class>
+		</classes>
+	</test>
+	<test name="Test Mobile">
+		<parameter name="browser" value="remote-mobile"></parameter>
+		<parameter name="platform" value="win10"></parameter>
+		<parameter name="url"
+			value="http://prestashop-automation.qatestlab.com.ua/ru/"></parameter>
+		<classes>
+			<class name="com.qatestlab.homework5.TestHomeWork5_1"></class>
+		</classes>
+	</test>
+</suite>
